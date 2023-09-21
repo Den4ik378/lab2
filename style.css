@@ -1,0 +1,90 @@
+header {
+  border: 3px solid red;
+  width: 2500px;
+  height: 350px;
+  margin: 10px;
+}
+.menu {
+  position: relative;
+  left: 1950px;
+  bottom: 300px;
+  font-size: 179%;
+}
+.logo img {
+  position: relative;
+  left: 50px;
+  width: 300px;
+  bottom: 50px;
+  border-radius: 10%;
+}
+.sidebar {
+  border: 3px solid red;
+  width: 500px;
+  height: 700px;
+  padding: 20px;
+  margin: 10px;
+}
+.sidebar a:hover {
+  color: #da3503ec;
+}
+ul {
+  position: relative;
+  font-size: 200%;
+  top: 150px;
+  left: 30px;
+}
+.content {
+  border: 3px solid red;
+  position: relative;
+  left: 565px;
+  bottom: 756px;
+  width: 1945px;
+  height: 739px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+  margin: 10px;
+}
+.image {
+  position: relative;
+  top: 40px;
+  left: 500px;
+}
+.image img {
+  width: 300px;
+  border-radius: 10%;
+  box-shadow: 2px 7px 5px #da3503ec;
+}
+.image:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  position: relative;
+  border: 3px solid red;
+  width: 2500px;
+  height: 320px;
+  margin: 10px;
+  bottom: 755px;
+}
+.text {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 150px;
+  justify-content: space-between;
+  width: 70%;
+}
+.structure {
+  font-size: 200%;
+  position: relative;
+}
+.eduOporrt {
+  font-size: 200%;
+  position: relative;
+}
+.forUsers {
+  font-size: 200%;
+  position: relative;
+}
